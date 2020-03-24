@@ -329,11 +329,11 @@ function tallyUpDonations(/* CODE HERE */) {
  * Study the code for counter1 and counter2. Answer the questions below.
  * 
  * 1. What is the difference between counter1 and counter2?
- * 
+ * The difference is the variable 'count' is inside the scope in counter1 and outside on counter2.
  * 2. Which of the two uses a closure? How can you tell?
- * 
+ * They both use closures because they both have functions. Counter1 however uses an outside variable of the inner scope to perform its function.
  * 3. In what scenario would the counter1 code be preferable? In what scenario would counter2 be better? 
- *
+ *Counter1 would be preferred when you don't want out of your scope, counter2 is when you want to have variable useable by other functions.
 */
 
 // counter1 code
